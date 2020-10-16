@@ -684,7 +684,6 @@ footer {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    height: 65vh;
     text-align: center;
   }
 
@@ -769,7 +768,36 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-width: 568px) and (max-width: 736px) {
+  p {
+    font-size: 13px;
+  }
+
+  .custom-navbar .navbar-brand {
+    font-size: 2rem;
+    margin-top: -0.7em;
+  }
+
+  .custom-navbar .nav li a {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  #intro {
+    height: 65vh;
+  }
+
+  #video iframe {
+    margin-top: 42px;
+  }
+
+  #contact .contact_detail {
+    background: #ffffff;
+    padding: 10rem 3rem 10rem 5rem;
+  }
+}
+
+@media only screen and (width: 812px) {
   .custom-navbar .navbar-brand {
     line-height: 20px;
   }
